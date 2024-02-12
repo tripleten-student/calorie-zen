@@ -1,5 +1,12 @@
+import "./Main.css";
+
 function Main() {
-  return <p>Energy Consumed:</p>;
+  return (
+    <div className="container">
+      <p>Energy Consumed:</p>
+      <p>Add some food</p>
+    </div>
+  );
 }
 
 export default Main;
