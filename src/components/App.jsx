@@ -1,10 +1,13 @@
+import Header from "./Header";
+import Main from "./Main";
+
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>Calorie-Zen</h1>
-      <p>Energy Consumed:</p>
+      <Header />
+      <Main />
     </>
   );
 }
