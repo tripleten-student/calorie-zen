@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Main />
-      <Animal selectedAnimal="cat" />
+      <Animal selectedAnimal="" />
     </>
   );
 }

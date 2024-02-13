@@ -1,9 +1,15 @@
 import { data } from "../utils/constants.js";
 
 function Animal({ selectedAnimal }) {
-  const animal = data.find((item) => {
+  let animal = data.find((item) => {
     return item.name == selectedAnimal;
   });
+
+  animal = animal?.image
+    ? animal
+    : data.find((item) => {
+        return item.name == "default";
+      });
 
   return (
     <img src={animal.image} alt={animal.name} style={{ maxWidth: "75%" }} />
