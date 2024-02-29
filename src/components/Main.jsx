@@ -3,8 +3,8 @@ import "./Main.css";
 function Main() {
   return (
     <div className="container">
-      <p>Energy Consumed:</p>
-      <p>Add some food</p>
+      <p>This is your first Vite project</p>
+      <p>"Vite" means "quick" in French</p>
     </div>
   );
 }
