@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <h1>Calorie-Zen</h1>
+      <h1>Hello Vite!</h1>
     </div>
   );
 }
