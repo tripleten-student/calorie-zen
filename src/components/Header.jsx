@@ -1,10 +1,10 @@
-import headerLogo from "../assets/calorieZen.png";
+import headerLogo from "../assets/logo.png";
 
 function Header() {
   return (
     <div>
-      <img src={headerLogo} alt="Calorie Zen Logo" />
-      <h1>Calorie-Zen</h1>
+      <img src={headerLogo} alt="App logo" />
+      <h1>Hello Vite!</h1>
     </div>
   );
 }

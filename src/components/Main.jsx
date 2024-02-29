@@ -1,5 +1,5 @@
 function Main() {
-  return <p>Energy Consumed:</p>;
+  return <p>This is your first Vite project</p>;
 }
 
 export default Main;
